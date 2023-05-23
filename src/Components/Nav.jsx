@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import request from "../api/request";
-
 import { Link, Outlet } from "react-router-dom";
 
 const Nav = () => {
