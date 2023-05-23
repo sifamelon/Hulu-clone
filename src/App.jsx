@@ -4,16 +4,16 @@ import react from "react";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import { Route, Routes } from "react-router-dom";
-import Popular from "./Components/ListProgram/Popular";
-import Toprated from "./Components/ListProgram/Toprated";
-import Trending from "./Components/ListProgram/Trending";
-import Upcoming from "./Components/ListProgram/Upcoming";
-import Horror from "./Components/ListProgram/Horror";
-import TvPopular from "./Components/ListProgram/TvPopular";
-import Tvwestern from "./Components/ListProgram/Tvwestern";
-import Romance from "./Components/ListProgram/Romance";
-import Mystery from "./Components/ListProgram/Mystery";
-import Tvscfi from "./Components/ListProgram/Tvscfi";
+import Popular from "./Components/ListMovies/Popular";
+import Toprated from "./Components/ListMovies/Toprated";
+import Trending from "./Components/ListMovies/Trending";
+import Upcoming from "./Components/ListMovies/Upcoming";
+import Horror from "./Components/ListMovies/Horror";
+import TvPopular from "./Components/ListMovies/TvPopular";
+import Tvwestern from "./Components/ListMovies/Tvwestern";
+import Romance from "./Components/ListMovies/Romance";
+import Mystery from "./Components/ListMovies/Mystery";
+import Tvscfi from "./Components/ListMovies/Tvscfi";
 const LazyAnimation = react.lazy(() =>
   import("./Components/ListProgram/Animation")
 );
