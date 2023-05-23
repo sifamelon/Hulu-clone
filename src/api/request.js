@@ -1,4 +1,3 @@
-const API_KEY = "988353d8e15a146fa8bcf60dc2e8451e";
 const data = {
   fetchPopular: {
     title: "Popular",

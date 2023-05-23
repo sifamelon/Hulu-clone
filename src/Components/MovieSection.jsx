@@ -34,7 +34,7 @@ const MovieSection = ({ sec }) => {
                 width={1920}
                 height={1080}
                 src={`${nice.current}${res.backdrop_path}`}
-                alt="Movie image"
+                alt="a man playing "
               />
             ) : null}
 
