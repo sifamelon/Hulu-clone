@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-// import './App.css';
 import react from "react";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
