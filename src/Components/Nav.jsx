@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import request from "../api/request";
-import axios from "axios";
+
 import { Link, Outlet } from "react-router-dom";
-import MovieSection from "./MovieSection";
+
 const Nav = () => {
   return (
     <>
