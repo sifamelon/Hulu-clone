@@ -15,7 +15,7 @@ import Romance from "./Components/ListMovies/Romance";
 import Mystery from "./Components/ListMovies/Mystery";
 import Tvscfi from "./Components/ListMovies/Tvscfi";
 const LazyAnimation = react.lazy(() =>
-  import("./Components/ListProgram/Animation")
+  import("./Components/ListMovies/Animation")
 );
 function App() {
   return (
